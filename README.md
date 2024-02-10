@@ -9,6 +9,19 @@ This project contains Python scripts developed for analysing dinosaur data. The 
   - `DinoDataAnalysis.py`: A basic script for data analysis with standard validation and error handling.
   - `SecureDinoDataAnalysis.py`: An enhanced version with additional security features, comprehensive validation, and logging.
 - `data/`: Contains the dinosaur dataset (`dinosaurs.csv`).
+  - The script expects a CSV file (dinosaurs.csv) with the following columns:
+    - name: Name of the dinosaur species
+    - diet: Types of vore
+    - period: The age of dinosaurs
+    - lived_in: Country
+    - type: Dinosaur
+    - length: Length of the dinosaur (in meters)
+    - species: The species classification of the dinosaur
+
+## Output
+The scripts will print results directly to the console:
+- Part 1: Identifies the dinosaur species with the largest average length.
+- Part 2: Lists any groups of dinosaur names that are anagrams of each other, or indicates if no anagrams are found.
 
 ## Approach and Security Enhancements
 The second script (`SecureDinoDataAnalysis.py`) is designed with a focus on security and robust data processing. Key enhancements include:
