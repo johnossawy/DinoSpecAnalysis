@@ -18,11 +18,6 @@ This project contains Python scripts developed for analysing dinosaur data. The 
     - length: Length of the dinosaur (in meters)
     - species: The species classification of the dinosaur
 
-## Output
-The scripts will print results directly to the console:
-- Part 1: Identifies the dinosaur species with the largest average length.
-- Part 2: Lists any groups of dinosaur names that are anagrams of each other, or indicates if no anagrams are found.
-
 ## Approach and Security Enhancements
 The second script (`SecureDinoDataAnalysis.py`) is designed with a focus on security and robust data processing. Key enhancements include:
 
@@ -50,6 +45,11 @@ python SecureDinoDataAnalysis.py ../data/dinosaurs.csv
 ```
 
 Replace `<path-to-dinosaur-csv>` with the actual path to your dinosaur data CSV file.
+
+## Output
+The scripts will print results directly to the console:
+- Part 1: Identifies the dinosaur species with the largest average length.
+- Part 2: Lists any groups of dinosaur names that are anagrams of each other, or indicates if no anagrams are found.
 
 ## Dependencies
 - Python 3.x
