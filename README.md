@@ -6,8 +6,8 @@ This project contains Python scripts developed for analysing dinosaur data. The 
 
 ## Project Structure
 - `src/`: Contains all the source code.
-  - `dino_data_analysis.py`: A basic script for data analysis with standard validation and error handling.
-  - `secure_dino_data_analysis.py`: An enhanced version with additional security features, comprehensive validation, and logging.
+  - `DinoDataAnalysis.py`: A basic script for data analysis with standard validation and error handling.
+  - `SecureDinoDataAnalysis.py`: An enhanced version with additional security features, comprehensive validation, and logging.
 - `data/`: Contains the dinosaur dataset (`dinosaurs.csv`).
 
 ## Approach and Security Enhancements
